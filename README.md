@@ -1,4 +1,5 @@
 # GsonCompat
+    基于 Gson 2.8.2
     Gson兼容PHP空对象引发的json语法错误：
 
 
