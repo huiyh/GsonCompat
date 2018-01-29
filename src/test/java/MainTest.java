@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-import generic.AssociateWordLoader;
+import generic.WordLoader;
 import generic.entity.AObject;
 import generic.entity.ApiResponse;
 
@@ -30,7 +30,7 @@ public class MainTest {
 
     @Test
     public void test2(){
-        AssociateWordLoader loader = new AssociateWordLoader();
+        WordLoader loader = new WordLoader();
         loader.load("{\"errorno\":1,\"errormsg\":\"\\u6210\\u529f\",\"data\":[\"\",{}]}");
     }
 

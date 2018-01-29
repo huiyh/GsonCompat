@@ -8,10 +8,10 @@ import generic.entity.ApiResponse;
  * Created by huiyh on 2017/10/26.
  */
 
-public class AssociateWordLoader extends GenericGsonConverter<ApiResponse<Object>> {
+public class WordLoader extends GenericGsonConverter<ApiResponse<Object>> {
 
     public static void main(String[] args) {
-        AssociateWordLoader loader = new AssociateWordLoader();
+        WordLoader loader = new WordLoader();
         loader.load("{\"errorno\":1,\"errormsg\":\"\\u6210\\u529f\",\"data\":{\"no\":2}}");
 //        loader.load("{\"errorno\":1,\"errormsg\":\"\\u6210\\u529f\",\"data\":\"\"}");
     }

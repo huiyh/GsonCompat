@@ -8,7 +8,7 @@ import java.util.List;
  * Created by huiyh on 2017/10/27.
  */
 
-public class AssociateWord {
+public class WordEntity {
 
     /**
      * word : 北京好找北京工作吗

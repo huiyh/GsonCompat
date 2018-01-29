@@ -7,7 +7,7 @@ import generic.entity.AObject;
 
 public class Main {
     public static void main(String[] args) {
-        AssociateWordLoader loader = new AssociateWordLoader();
+        WordLoader loader = new WordLoader();
         loader.load("{\"errorno\":1,\"errormsg\":\"\\u6210\\u529f\",\"data\":[\"\",{}]}");
 //        loader.load("{\"errorno\":1,\"errormsg\":\"\\u6210\\u529f\",\"data\":\"\"}");
 //        Gson gson = new Gson(true);
