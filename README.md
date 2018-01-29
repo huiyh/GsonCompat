@@ -3,7 +3,7 @@
 
 
 ### 兼容前
-| Json | Response<Object> | Response<List> | Response<Map>
+| Json | Response\<Object\> | Response\<List\> | Response\<Map\>
 | - | :-: | :-: | :-: |
 | {"code":0,"msg":"成功","data":""} | null / 异常 | null / 异常 | null / 异常 |
 | {"code":0,"msg":"成功","data":{}} | √ / √ | null / 异常 | √ / √ |
@@ -12,7 +12,7 @@
 
 
 ### 兼容后
-| Json | Response\<Object> | Response\<List> | Response\<Map> |
+| Json | Response\<Object\> | Response\<List\> | Response\<Map\> |
 | - | :-: | :-: | :-: |
 | {"code":0,"msg":"成功","data":""} | √ / null | √ / null | √ / null |
 | {"code":0,"msg":"成功","data":{}} | √ / √ | √ / null | √ / √ |
